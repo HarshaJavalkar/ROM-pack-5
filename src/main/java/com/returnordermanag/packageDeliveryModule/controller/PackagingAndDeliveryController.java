@@ -24,4 +24,9 @@ public class PackagingAndDeliveryController{
 		
 	}
 	
+	@GetMapping("/testing")
+	public String testing() {
+		return new String("package process success go ahead");
+	}
+	
 }
